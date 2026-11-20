@@ -1,6 +1,7 @@
 name: Build
 
 on:
+  workflow_dispatch:
   push:
     branches: ["Root-Main", "main", "develop"]
   pull_request:
